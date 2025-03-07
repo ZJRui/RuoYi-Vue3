@@ -19,7 +19,7 @@ import plugins from './plugins' // plugins
 import { download } from '@/utils/request'
 
 // svg图标
-import 'virtual:svg-icons-register'
+import 'virtual:svg-icons-register'//E:\programme\111-WebFront-EndDevFramework\vite-plugin-svg-icons\vite-plugin-svg-icons_README.zh_CN.md at main · vbenjs_vite-plugin-svg-icons.pdf
 import SvgIcon from '@/components/SvgIcon'
 import elementIcons from '@/components/SvgIcon/svgicon'
 
@@ -80,3 +80,6 @@ app.use(ElementPlus, {
 })
 
 app.mount('#app')
+
+
+
