@@ -223,8 +223,8 @@
                     <i class="el-icon-s-operation" />
                   </div>
                   <el-input v-model="element.label" placeholder="选项名" size="small" />
-                  <el-input placeholder="选项值" size="small" :value="element.value"
-                    @input="setOptionValue(element, $event)" />
+                  <el-input placeholder="选项值" size="small" v-model="element.value"
+                   />
                   <div class="close-btn select-line-icon" @click="activeData.options.splice(index, 1)">
                     <el-icon>
                       <Remove />
